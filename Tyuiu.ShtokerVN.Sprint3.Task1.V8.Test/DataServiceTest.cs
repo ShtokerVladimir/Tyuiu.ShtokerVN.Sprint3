@@ -16,11 +16,11 @@ namespace Tyuiu.ShtokerVN.Sprint3.Task1.V8.Test
             int startValue = 1;
             int stopValue = 7;
 
-            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            double asd = ds.GetMultiplySeries(value, startValue, stopValue);
 
             double wait = 558.503;
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, asd);
         }
     }
 }
