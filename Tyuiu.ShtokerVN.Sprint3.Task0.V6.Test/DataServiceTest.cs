@@ -11,10 +11,12 @@ namespace Tyuiu.ShtokerVN.Sprint3.Task0.V6.Test
         public void ValidGetSumSeries()
         {
             DataService ds = new DataService();
+
             double value = 5;
             int startValue = 1;
             int stopValue = 15;
 
+            
             double res = ds.GetSumSeries(value, startValue, stopValue);
             double wait = 9.103;
 

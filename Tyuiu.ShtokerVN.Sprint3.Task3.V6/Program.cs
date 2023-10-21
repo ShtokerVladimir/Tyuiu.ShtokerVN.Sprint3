@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.ShtokerVN.Sprint3.Task0.V6.Lib;
+using Tyuiu.ShtokerVN.Sprint3.Task3.V6.Lib;
 
-namespace Tyuiu.ShtokerVN.Sprint3.Task0.V6
+namespace Tyuiu.ShtokerVN.Sprint3.Task3.V6
 {
     class Program
     {
@@ -16,31 +16,31 @@ namespace Tyuiu.ShtokerVN.Sprint3.Task0.V6
             Console.WriteLine("*************************************************************************************************");
             Console.WriteLine("* Спринт #3                                                                                     *");
             Console.WriteLine("* Тема: Алгоритмы циклической структуры C#                                                      *");
-            Console.WriteLine("* Задание #0                                                                                    *");
+            Console.WriteLine("* Задание #3                                                                                    *");
             Console.WriteLine("* Вариант #6                                                                                    *");
             Console.WriteLine("* Выполнил: Штокер Владимир Николаевич | ИИПБ-23-1                                              *");
             Console.WriteLine("*************************************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                                      *");
-            Console.WriteLine("* Написать программу используя цикл for, которая вычисляет произведение ряда по формуле         *");
+            Console.WriteLine("* Используя цикл foreach заменить цифры на букву t в строке: 12able 1o s4gh                     *");
             Console.WriteLine("*                                                                                               *");
             Console.WriteLine("*************************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                              *");
             Console.WriteLine("*************************************************************************************************");
+            
+            string value = "12able 1o s4gh";
+            char chr = 't';
 
-            double value = 5;
-            int startValue = 1;
-            int stopValue = 15;
-
-            Console.WriteLine("Переменная X = " + value);
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
+            Console.WriteLine("строка = " + value);
+            Console.WriteLine("Заменяющий символ = " + chr);
 
             Console.WriteLine("*************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                    *");
             Console.WriteLine("*************************************************************************************************");
 
-            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Итог = " + ds.ReplaceNumOnChar(value, chr));
+
             Console.ReadKey();
+
         }
     }
 }
