@@ -14,7 +14,7 @@ namespace Tyuiu.ShtokerVN.Sprint3.Task4.V27
             DataService ds = new DataService();
 
             Console.WriteLine("***************************************************************************************************");
-            Console.WriteLine("* Спринт #4                                                                                       *");
+            Console.WriteLine("* Спринт #3                                                                                       *");
             Console.WriteLine("* Тема: Алгоритмы циклической структуры C#                                                        *");
             Console.WriteLine("* Задание #4                                                                                      *");
             Console.WriteLine("* Вариант #27                                                                                     *");
